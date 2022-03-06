@@ -1,0 +1,101 @@
+body {
+    max-width: 800px;
+    margin: auto;
+    /* text-align: center; */
+    background-color: black;
+}
+
+.container {
+    background-color: #f8f8f8;
+}
+
+#title {
+    font-family: 'Comic Sans MS', sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 5px 20px 5px 20px;
+}
+
+#api-name {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: grey;
+    padding: 5px 20px 5px 20px;
+}
+
+#images {
+    /* text-align: center; */
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.image {
+    border-radius: 10px;
+    background-color: white;
+    margin: 5px 0px 5px 0px;
+    width: 750px;
+}
+
+.image-pic {
+    width: 750px;
+    border-radius: 10px 10px 0px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-title-copyright-date {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: large;
+    padding: 10px 10px 5px 10px;
+}
+
+.image-explanation {
+    font-size: large;
+    padding: 10px;
+}
+
+.image-like, .image-nolike {
+    height: 20px;
+    cursor: pointer;
+    padding: 0px 10px 10px;
+    position: relative;
+    left: 650px;
+}
+
+.image-sharelink {
+    height: 20px;
+    cursor: pointer;
+    padding: 0px 10px 10px;
+    position: relative;
+    left: 650px;
+}
+
+#loader {
+    position: relative;
+    left: 200px;
+    margin: 100px;
+    border: 20px solid lightblue;
+    border-top: 20px solid darkcyan;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(90deg); }
+    100% { transform: rotate(450deg); }
+}
+
+#icons-source {
+    font-family: 'Garamond', serif;
+    margin: 10px 0px 10px 0px;
+}
+
+.icon-source {
+    color: antiquewhite;
+    text-decoration: none;
+}
